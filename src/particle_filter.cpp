@@ -76,6 +76,35 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 	//   observed measurement to this particular landmark.
 	// NOTE: this method will NOT be called by the grading code. But you will probably find it useful to 
 	//   implement this method and use it as a helper during the updateWeights phase.
+  
+  // loop through all the predicted landmarks
+  vector<LandmarkObs>::iterator p_it;
+  for (p_it = predicted.begin(); p_it != predicted.end(); ++p_it) {
+    // predicted landmark
+    LandmarkObs prd = *p_it;
+
+    // initialize
+    double shortest_dist = numeric_limits<float>::max();    
+
+    // loop through all the observed landmarks
+    vector<LandmarkObs>::iterator o_it;
+    for (o_it = observations.begin(); o_it != observations.end(); ++o_it) {
+      // observed landmark
+      LandmarkObs obs = *o_it;
+
+      // compute the euclidean distance
+      double euclidean_dist = dist(prd.x, prd.y, obs.x, obs.y);      
+
+      // if shorter distance or its the first iteration
+      if (euclidean_dist < shortest_dist || shortest_dist == NULL) {
+        shortest_dist = euclidean_dist;
+
+        // assign the observed measurement to this landmark
+        prd.id = obs.id;
+        break;
+      }
+    }
+  }    
 
 }
 
@@ -91,6 +120,8 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 	//   and the following is a good resource for the actual equation to implement (look at equation 
 	//   3.33
 	//   http://planning.cs.uiuc.edu/node99.html
+
+
 }
 
 void ParticleFilter::resample() {
