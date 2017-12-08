@@ -1,0 +1,378 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/6/2017 6:29:27 PM.
+The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "c:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (62,82)" does not exist in the project, and will be ignored.
+Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "c:\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "c:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdC\.\CompilerIdC.exe
+AppLocalFromInstalled:
+  powershell.exe -ExecutionPolicy Bypass -noprofile -File "c:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdC\.\CompilerIdC.exe" "c:\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/3.10.0-rc4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/6/2017 6:29:29 PM.
+The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "c:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (62,82)" does not exist in the project, and will be ignored.
+Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "c:\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "c:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdCXX\.\CompilerIdCXX.exe
+AppLocalFromInstalled:
+  powershell.exe -ExecutionPolicy Bypass -noprofile -File "c:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdCXX\.\CompilerIdCXX.exe" "c:\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\3.10.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/3.10.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e0840.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/6/2017 6:29:30 PM.
+The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "c:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (62,82)" does not exist in the project, and will be ignored.
+Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_e0840.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e0840.dir\Debug\".
+  Creating directory "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e0840.dir\Debug\cmTC_e0840.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e0840.dir\Debug\cmTC_e0840.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "c:\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0840.dir\Debug\\" /Fd"cmTC_e0840.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24228 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0840.dir\Debug\\" /Fd"cmTC_e0840.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_e0840.exe" /INCREMENTAL /NOLOGO /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_e0840.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_e0840.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e0840.dir\Debug\testCCompiler.obj
+  cmTC_e0840.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_e0840.exe
+  cmTC_e0840.vcxproj -> D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_e0840.pdb (Full PDB)
+AppLocalFromInstalled:
+  powershell.exe -ExecutionPolicy Bypass -noprofile -File "c:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_e0840.exe" "c:\vcpkg\installed\x86-windows\debug\bin" "cmTC_e0840.dir\Debug\cmTC_e0840.tlog\cmTC_e0840.write.1u.tlog" "cmTC_e0840.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_e0840.dir\Debug\cmTC_e0840.tlog\unsuccessfulbuild".
+  Touching "cmTC_e0840.dir\Debug\cmTC_e0840.tlog\cmTC_e0840.lastbuildstate".
+Done Building Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_e0840.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_21b2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/6/2017 6:29:32 PM.
+The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "c:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (62,82)" does not exist in the project, and will be ignored.
+Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_21b2b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_21b2b.dir\Debug\".
+  Creating directory "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_21b2b.dir\Debug\cmTC_21b2b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_21b2b.dir\Debug\cmTC_21b2b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "c:\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21b2b.dir\Debug\\" /Fd"cmTC_21b2b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24228 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21b2b.dir\Debug\\" /Fd"cmTC_21b2b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_21b2b.exe" /INCREMENTAL /NOLOGO /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_21b2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_21b2b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_21b2b.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_21b2b.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_21b2b.exe
+  cmTC_21b2b.vcxproj -> D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_21b2b.pdb (Full PDB)
+AppLocalFromInstalled:
+  powershell.exe -ExecutionPolicy Bypass -noprofile -File "c:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_21b2b.exe" "c:\vcpkg\installed\x86-windows\debug\bin" "cmTC_21b2b.dir\Debug\cmTC_21b2b.tlog\cmTC_21b2b.write.1u.tlog" "cmTC_21b2b.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_21b2b.dir\Debug\cmTC_21b2b.tlog\unsuccessfulbuild".
+  Touching "cmTC_21b2b.dir\Debug\cmTC_21b2b.tlog\cmTC_21b2b.lastbuildstate".
+Done Building Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_21b2b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e04a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/6/2017 6:29:33 PM.
+The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "c:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (62,82)" does not exist in the project, and will be ignored.
+Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_e04a9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e04a9.dir\Debug\".
+  Creating directory "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e04a9.dir\Debug\cmTC_e04a9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e04a9.dir\Debug\cmTC_e04a9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "c:\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e04a9.dir\Debug\\" /Fd"cmTC_e04a9.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24228 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e04a9.dir\Debug\\" /Fd"cmTC_e04a9.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_e04a9.exe" /INCREMENTAL /NOLOGO /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_e04a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_e04a9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e04a9.dir\Debug\testCXXCompiler.obj
+  cmTC_e04a9.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_e04a9.exe
+  cmTC_e04a9.vcxproj -> D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_e04a9.pdb (Full PDB)
+AppLocalFromInstalled:
+  powershell.exe -ExecutionPolicy Bypass -noprofile -File "c:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_e04a9.exe" "c:\vcpkg\installed\x86-windows\debug\bin" "cmTC_e04a9.dir\Debug\cmTC_e04a9.tlog\cmTC_e04a9.write.1u.tlog" "cmTC_e04a9.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_e04a9.dir\Debug\cmTC_e04a9.tlog\unsuccessfulbuild".
+  Touching "cmTC_e04a9.dir\Debug\cmTC_e04a9.tlog\cmTC_e04a9.lastbuildstate".
+Done Building Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_e04a9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cf77e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/6/2017 6:29:34 PM.
+The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "c:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (62,82)" does not exist in the project, and will be ignored.
+Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_cf77e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cf77e.dir\Debug\".
+  Creating directory "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cf77e.dir\Debug\cmTC_cf77e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cf77e.dir\Debug\cmTC_cf77e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "c:\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cf77e.dir\Debug\\" /Fd"cmTC_cf77e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24228 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cf77e.dir\Debug\\" /Fd"cmTC_cf77e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_cf77e.exe" /INCREMENTAL /NOLOGO /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_cf77e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_cf77e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cf77e.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_cf77e.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_cf77e.exe
+  cmTC_cf77e.vcxproj -> D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_cf77e.pdb (Full PDB)
+AppLocalFromInstalled:
+  powershell.exe -ExecutionPolicy Bypass -noprofile -File "c:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_cf77e.exe" "c:\vcpkg\installed\x86-windows\debug\bin" "cmTC_cf77e.dir\Debug\cmTC_cf77e.tlog\cmTC_cf77e.write.1u.tlog" "cmTC_cf77e.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_cf77e.dir\Debug\cmTC_cf77e.tlog\unsuccessfulbuild".
+  Touching "cmTC_cf77e.dir\Debug\cmTC_cf77e.tlog\cmTC_cf77e.lastbuildstate".
+Done Building Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_cf77e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ea6aa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/6/2017 6:29:36 PM.
+The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "c:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (62,82)" does not exist in the project, and will be ignored.
+Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_ea6aa.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ea6aa.dir\Debug\".
+  Creating directory "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ea6aa.dir\Debug\cmTC_ea6aa.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ea6aa.dir\Debug\cmTC_ea6aa.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "c:\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ea6aa.dir\Debug\\" /Fd"cmTC_ea6aa.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24228 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"c:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ea6aa.dir\Debug\\" /Fd"cmTC_ea6aa.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_ea6aa.exe" /INCREMENTAL /NOLOGO /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"c:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_ea6aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_ea6aa.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ea6aa.dir\Debug\feature_tests.obj
+  cmTC_ea6aa.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_ea6aa.exe
+  cmTC_ea6aa.vcxproj -> D:/users/zb8/playground/training/SDC/Term2/Projects/CarND-Kidnapped-Vehicle-Project/products/cmake.msbuild.windows.x86.v140/CMakeFiles/CMakeTmp/Debug/cmTC_ea6aa.pdb (Full PDB)
+AppLocalFromInstalled:
+  powershell.exe -ExecutionPolicy Bypass -noprofile -File "c:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\Debug\cmTC_ea6aa.exe" "c:\vcpkg\installed\x86-windows\debug\bin" "cmTC_ea6aa.dir\Debug\cmTC_ea6aa.tlog\cmTC_ea6aa.write.1u.tlog" "cmTC_ea6aa.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_ea6aa.dir\Debug\cmTC_ea6aa.tlog\unsuccessfulbuild".
+  Touching "cmTC_ea6aa.dir\Debug\cmTC_ea6aa.tlog\cmTC_ea6aa.lastbuildstate".
+Done Building Project "D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\products\cmake.msbuild.windows.x86.v140\CMakeFiles\CMakeTmp\cmTC_ea6aa.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
