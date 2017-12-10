@@ -242,19 +242,8 @@ inline bool read_landmark_data(std::string filename, std::vector<LandmarkObs>& o
 	return true;
 }
 
-/*
-* Returns a value from a normal gaussian distribution
-* @param Mean of the distribution
-* @param Standard deviation of the distribution
-* @output The value from distribution
-*/
-inline double get_normal_value(double mean, double std) {
-  // Normal distribution
-  std::normal_distribution<double> distribution(mean, std);
-  std::default_random_engine generator;
-  double number = distribution(generator);
 
-  return number;
-}
+
+
 
 #endif /* HELPER_FUNCTIONS_H_ */

@@ -15,6 +15,11 @@ In this project you will implement a 2 dimensional particle filter in C++. Your 
 ### The equations for updating x, y and the yaw angle when the yaw rate is not equal to zero
 ![Prediction](/assets/prediction.png)
 
+### Coordinate transformation
+![Transformation](/assets/transformation.png)
+[Equation Source](http://planning.cs.uiuc.edu/node99.html)
+[Theory about transformation](https://www.willamette.edu/~gorr/classes/GeneralGraphics/Transforms/transforms2d.htm)
+
 ## Running the Code
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
