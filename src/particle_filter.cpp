@@ -31,7 +31,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
   // NOTE: Consult particle_filter.h for more information about this method (and others in this file).
 
   // set the number of particles
-  num_particles = 100;
+  num_particles = 15;
 
   // noise distributions with a mean of 0
   normal_distribution<double> x_noise(0.0, std[0]);

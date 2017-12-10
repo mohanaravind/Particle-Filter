@@ -1,13 +1,13 @@
-# Overview
-This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
 
-#### Submission
-All you will submit is your completed version of `particle_filter.cpp`, which is located in the `src` directory. You should probably do a `git pull` before submitting to verify that your project passes the most up-to-date version of the grading code (there are some parameters in `src/main.cpp` which govern the requirements on accuracy and run time.)
 
-## Project Introduction
-Your robot has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
+## Introduction
+In this project we try to locate a moving vehicle using particle filter technique. We have noisy sensor data as inputs and initial GPS location. Velocity and yaw rate are control data that are available to help make vehicles location in the next instant of time. Using a discrete distribution of weighted probability of the particles we locate the vehicle
 
-In this project you will implement a 2 dimensional particle filter in C++. Your particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step your filter will also get observation and control data. 
+### Observations
+Using `15 particles` I managed to get a descent run-time and accuracy. While trying out with the number of particles I once saw the vehicle passing the necessary criteria even with `10 particles`. The number of particles thus becomes a hyper parameter for our vehicle detection model 
+
+### Localization
+![Pass](/assets/pass.png)
 
 ### The Pipeline
 ![Algorithm](/assets/algorithm.png)
@@ -21,7 +21,7 @@ In this project you will implement a 2 dimensional particle filter in C++. Your 
 [Theory about transformation](https://www.willamette.edu/~gorr/classes/GeneralGraphics/Transforms/transforms2d.htm)
 
 ## Running the Code
-This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
+This project requires a Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
 This repository includes two files that can be used to set up and intall uWebSocketIO for either Linux or Mac systems. For windows you can use either Docker, VMware, or even Windows 10 Bash on Ubuntu to install uWebSocketIO.
 
@@ -93,12 +93,6 @@ OUTPUT: values provided by the c++ program to the simulator
 ["best_particle_sense_y"] <= list of sensed y positions
 
 
-Your job is to build out the methods in `particle_filter.cpp` until the simulator output says:
-
-```
-Success! Your particle filter passed!
-```
-
 # Implementing the Particle Filter
 The directory structure of this repository is as follows:
 
@@ -148,6 +142,9 @@ You can find the inputs to the particle filter in the `data` directory.
 7. Open the `projectname.sln` and start coding
 8. You could check if your external dependencies are correctly loaded to verify if you did all these steps right
 
+### Future research
+* Can improve the performance of the detection model further
+* Dynamic particle size ?
 
 
 
