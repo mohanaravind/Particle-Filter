@@ -192,10 +192,18 @@ void ParticleFilter::resample() {
   // NOTE: You may find std::discrete_distribution helpful here.
   //   http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution
 
+  double total_weights = 0.0;
+
   // build the weights vector
   weights.clear();
   for (Particle particle : particles) {
     weights.push_back(particle.weight);
+    total_weights += particle.weight;
+  }
+
+  // if the total weights prob is close to zero then we don't resample
+  if (fabs(total_weights) < 0.00001) {
+    return;
   }
 
   // define a discrete distribution using the weights of particles

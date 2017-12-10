@@ -1,4 +1,14 @@
-﻿  particle_filter.cpp
+﻿  main.cpp
+c:\vcpkg\installed\x86-windows\include\uws\libuv.h(114): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(184): warning C4800: 'SSL_CTX *': forcing value to bool 'true' or 'false' (performance warning)
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(219): warning C4800: 'std::size_t': forcing value to bool 'true' or 'false' (performance warning)
+c:\vcpkg\installed\x86-windows\include\uws\socket.h(26): warning C4275: non dll-interface struct 'Poll' used as base for dll-interface struct 'uS::Socket'
+  c:\vcpkg\installed\x86-windows\include\uws\libuv.h(92): note: see declaration of 'Poll'
+  c:\vcpkg\installed\x86-windows\include\uws\socket.h(26): note: see declaration of 'uS::Socket'
+c:\vcpkg\installed\x86-windows\include\uws\socket.h(488): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\vcpkg\installed\x86-windows\include\uws\httpsocket.h(15): warning C4800: 'char *': forcing value to bool 'true' or 'false' (performance warning)
+d:\users\zb8\playground\training\sdc\term2\projects\carnd-kidnapped-vehicle-project\src\main.cpp(105): warning C4018: '<': signed/unsigned mismatch
+  particle_filter.cpp
 d:\users\zb8\playground\training\sdc\term2\projects\carnd-kidnapped-vehicle-project\src\particle_filter.cpp(152): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 d:\users\zb8\playground\training\sdc\term2\projects\carnd-kidnapped-vehicle-project\src\particle_filter.cpp(171): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 d:\users\zb8\playground\training\sdc\term2\projects\carnd-kidnapped-vehicle-project\src\particle_filter.cpp(172): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
@@ -33,12 +43,13 @@ c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2316): w
               _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
               _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
           ]
-  d:\users\zb8\playground\training\sdc\term2\projects\carnd-kidnapped-vehicle-project\src\particle_filter.cpp(246): note: see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,std::ostream_iterator<float,char,std::char_traits<char>>>(_InIt,_InIt,_OutIt)' being compiled
+  d:\users\zb8\playground\training\sdc\term2\projects\carnd-kidnapped-vehicle-project\src\particle_filter.cpp(254): note: see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,std::ostream_iterator<float,char,std::char_traits<char>>>(_InIt,_InIt,_OutIt)' being compiled
           with
           [
               _OutIt=std::ostream_iterator<float,char,std::char_traits<char>>,
               _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
           ]
+  Generating Code...
      Creating library D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\ide_profiles\VisualStudio\..\products\msbuild.windows.x86.v140.Debug\CarND-Kidnapped-Vehicle-Project.lib and object D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\ide_profiles\VisualStudio\..\products\msbuild.windows.x86.v140.Debug\CarND-Kidnapped-Vehicle-Project.exp
   CarND-Kidnapped-Vehicle-Project.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\ide_profiles\VisualStudio\..\products\msbuild.windows.x86.v140.Debug\CarND-Kidnapped-Vehicle-Project.exe
   CarND-Kidnapped-Vehicle-Project.vcxproj -> D:\users\zb8\playground\training\SDC\Term2\Projects\CarND-Kidnapped-Vehicle-Project\ide_profiles\VisualStudio\..\products\msbuild.windows.x86.v140.Debug\CarND-Kidnapped-Vehicle-Project.pdb (Partial PDB)
