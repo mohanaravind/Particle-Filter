@@ -3,6 +3,17 @@
 ## Introduction
 In this project we try to locate a moving vehicle using particle filter technique. We have noisy sensor data as inputs and initial GPS location. Velocity and yaw rate are control data that are available to help make vehicles location in the next instant of time. Using a discrete distribution of weighted probability of the particles we locate the vehicle
 
+Note: When there are multiple Lidar measurements then we take the Lidar measurement that is closest to the map landmark.
+
+### Particle Filter: 
+This is a method for localization. Which means finding oneself where we are in the world. It is named as particle filter because the technique we use creates a number of particles that are nothing but the guesses we have made about ourself over the question of where we are. The filter term is used due to the fact that we keep progressively reduce/narrow our guess everytime.
+
+### Steps
+1. Initialize few number of particles based on a coarse GPS signal. The informations we receive from GPS intially are the co-ordinates and orientation. Each of these measurements has a noise that follows a [normal distribution](http://en.cppreference.com/w/cpp/numeric/random/normal_distribution) with a mean of zero and a standard deviation that depends on the device. We pick up these noises and addup to our co-ordinate. We also initialize the weights of these particles equally (say 1.0). These weights represents the fact that our confidence in position at this time step is uniformly distributed (probability).
+2. Everytime we receive the values of measurements that are based from our controls (velocity and yaw rate) we try to predict the position of the vehicle in the next time step using the mechanics equations. There is an element of incorrectness due to friction and slippage
+3. Update the weights by getting the measurements from sensors. These are noisy data that might be coming from a _**Kalman Filter**_ pipeline. These sensors could be a LIDAR or a RADAR measurement. We try to find the landmarks that are detected by the sensors [projected](https://www.willamette.edu/~gorr/classes/GeneralGraphics/Transforms/transforms2d.htm) onto a map co-ordinate system. We do this because the measurements that are received are from the perspective of he vehicle (vehicle back-front is x and right-left is y). Once transformed we compute the closest lying landmark as defined in the map data. The closeness of the landmark with the observation and map defines the probability distribution of the weights (location probability). It is the conditional probability of weights of the particle by the multi-variable Gaussian distribution of landmarks and observations closeness.
+4. Resampling is done on particles with replacement at every time step. This is done as a cycle(wheel) selected by the [discrete distribution](http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution) driven by the weights of the particles. This makes sure that particles with higher weights appear more frequently in the resampled distribution.
+
 ### Observations
 Using `15 particles` I managed to get a descent run-time and accuracy. While trying out with the number of particles I once saw the vehicle passing the necessary criteria even with `10 particles`. The number of particles thus becomes a hyper parameter for our vehicle detection model 
 
